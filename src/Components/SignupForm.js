@@ -125,7 +125,7 @@ const SignupForm = ({ handleClose }) => {
             />
             <Button
                 variant='contained'
-                size='large' style={{ backgroundColor: theme.textColor, color: theme.backgroundColor }} onClick={handleSubmit}>SIGNUP</Button>
+                size='large' style={{ backgroundColor: theme.textColor, color: theme.background }} onClick={handleSubmit}>SIGNUP</Button>
 
         </Box>
     )
