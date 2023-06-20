@@ -93,7 +93,7 @@ const LoginForm = ({ handleClose }) => {
             />
             <Button
                 variant='contained'
-                size='large' style={{ backgroundColor: theme.textColor, color: theme.backgroundColor }} onClick={handleSubmit}>LOGIN</Button>
+                size='large' style={{ backgroundColor: theme.textColor, color: theme.background }} onClick={handleSubmit}>LOGIN</Button>
 
         </Box>
     )
